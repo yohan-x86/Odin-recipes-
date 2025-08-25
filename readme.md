@@ -1,3 +1,4 @@
-hey, this is me comming from python and still 
-not knowing much about web developnent is fucking shame. 
-i wanna become a hacker but know lets grind html and css for a bit.
+# learning Web developmet
+comming from python i think web developmet is a little difficult because
+- i have to navigate [[./index.html]], css and javascript and then learn django,react and other langugages like php with laravel.
+- wish you good luck to you all.
