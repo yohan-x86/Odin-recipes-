@@ -1,0 +1,21 @@
+/* an experiment to learn CSS*/
+
+body{
+  font-family: sans-serif;
+  font-size: 500;
+}
+
+.heading{
+  padding: 2em;
+  text-align: center;
+  background-color: pink;
+}
+
+li{
+  border: solid yellow 2px;
+  display: inline-box;
+}
+
+ul{
+  border: solid yellow 2px;
+}
