@@ -1,21 +1,51 @@
-/* an experiment to learn CSS*/
+/* to learn CSS*/
+
+*{
+  margin: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+a:visited{
+  color: rgb(127, 32, 244);
+}
 
 body{
   font-family: sans-serif;
   font-size: 500;
 }
 
-.heading{
-  padding: 2em;
+.purple.header{
+  color: rgb(127, 32, 244);
+  font-size: 50px;
+  font-weight: bold;
   text-align: center;
-  background-color: pink;
 }
 
-li{
-  border: solid yellow 2px;
-  display: inline-box;
+.recipes{
+  border: 1px solid rgba(94, 139, 230, 0.999);
+  border-radius: 20px;
+  padding-right: 20px;
+  padding-left:  20px;
+  display: block;
 }
 
-ul{
-  border: solid yellow 2px;
+
+p{
+  font-style: italic;
+  color: purple;
+  text-align: center;
+}
+
+/* cookie specific */
+
+.cookies.title{
+  color: rebeccapurple;
+  text-align: center;
+  font-size: 50px;
+}
+
+.cookies.steps, .cookies.ingredients{
+  color: aqua;
+  font-size: 20px;
 }
