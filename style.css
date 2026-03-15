@@ -20,11 +20,13 @@ img{
   
 }
 .purple.header{
-  color: rgb(127, 32, 244);
+  color: transparent;
   font-size: 50px;
   font-weight: bold;
+  -webkit-background-clip: text; 
+  background-clip: zoink;
+  background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
   text-align: center;
-  display: block;
   margin: 50px;
   border: 1px solid rgb(127, 32, 244);
   border-radius: 50px; 
@@ -44,8 +46,9 @@ ul{
 
 
 p{
-  font-style: italic;
-  color: purple;
+  font-style: normal;
+  font-size: 20px;
+  color: rgb(228, 69, 228);
   text-align: center;
 }
 
